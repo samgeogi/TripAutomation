@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Functional_Testing" class="navigator-link">
+              <span class="suite-name border-passed">Functional Testing</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Functional_Testing" class="navigator-link ">
+                    <span>C:\Users\sam\eclipse-workspace\TripAutomation\test-output\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Functional_Testing" class="navigator-link ">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Functional_Testing" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Functional_Testing" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Functional_Testing" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Functional_Testing" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Functional_Testing" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">24 methods,   24 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Functional_Testing" class="hide-methods passed suite-Functional_Testing"> (hide)</a> <!-- hide-methods passed suite-Functional_Testing -->
+                      <a href="#" panel-name="suite-Functional_Testing" class="show-methods passed suite-Functional_Testing"> (show)</a> <!-- show-methods passed suite-Functional_Testing -->
+                    </span>
+                    <div class="method-list-content passed suite-Functional_Testing">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Functional_Testing" title="testScenarios.FlightDetails" class="method navigator-link" hash-for-method="flightintoexcel">flightintoexcel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Functional_Testing" title="testScenarios.FlightDetails" class="method navigator-link" hash-for-method="flightintoexcel">flightintoexcel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Functional_Testing" title="testScenarios.FlightDetails" class="method navigator-link" hash-for-method="priceintoexcel">priceintoexcel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Functional_Testing" title="testScenarios.FlightDetails" class="method navigator-link" hash-for-method="priceintoexcel">priceintoexcel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Functional_Testing" title="testScenarios.FlightDetails" class="method navigator-link" hash-for-method="screenshotHome">screenshotHome</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Functional_Testing" title="testScenarios.FlightDetails" class="method navigator-link" hash-for-method="screenshotHome">screenshotHome</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Functional_Testing" title="testScenarios.FlightDetails" class="method navigator-link" hash-for-method="screenshotResult">screenshotResult</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Functional_Testing" title="testScenarios.FlightDetails" class="method navigator-link" hash-for-method="screenshotResult">screenshotResult</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Functional_Testing" title="testScenarios.FlightDetails" class="method navigator-link" hash-for-method="testcaseDate">testcaseDate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Functional_Testing" title="testScenarios.FlightDetails" class="method navigator-link" hash-for-method="testcaseDate">testcaseDate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Functional_Testing" title="testScenarios.FlightDetails" class="method navigator-link" hash-for-method="testcaseFlight">testcaseFlight</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Functional_Testing" title="testScenarios.FlightDetails" class="method navigator-link" hash-for-method="testcaseFlight">testcaseFlight</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Functional_Testing" title="testScenarios.FlightDetails" class="method navigator-link" hash-for-method="testcaseFrom">testcaseFrom</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Functional_Testing" title="testScenarios.FlightDetails" class="method navigator-link" hash-for-method="testcaseFrom">testcaseFrom</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Functional_Testing" title="testScenarios.FlightDetails" class="method navigator-link" hash-for-method="testcasePrice">testcasePrice</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Functional_Testing" title="testScenarios.FlightDetails" class="method navigator-link" hash-for-method="testcasePrice">testcasePrice</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Functional_Testing" title="testScenarios.FlightDetails" class="method navigator-link" hash-for-method="testcasePriceSort">testcasePriceSort</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Functional_Testing" title="testScenarios.FlightDetails" class="method navigator-link" hash-for-method="testcasePriceSort">testcasePriceSort</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Functional_Testing" title="testScenarios.FlightDetails" class="method navigator-link" hash-for-method="testcaseRexl">testcaseRexl</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Functional_Testing" title="testScenarios.FlightDetails" class="method navigator-link" hash-for-method="testcaseRexl">testcaseRexl</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Functional_Testing" title="testScenarios.FlightDetails" class="method navigator-link" hash-for-method="testcaseSearch">testcaseSearch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Functional_Testing" title="testScenarios.FlightDetails" class="method navigator-link" hash-for-method="testcaseSearch">testcaseSearch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Functional_Testing" title="testScenarios.FlightDetails" class="method navigator-link" hash-for-method="testcaseTo">testcaseTo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Functional_Testing" title="testScenarios.FlightDetails" class="method navigator-link" hash-for-method="testcaseTo">testcaseTo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Functional_Testing -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Functional_Testing" class="panel Functional_Testing">
+          <div class="suite-Functional_Testing-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testScenarios.FlightDetails</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="flightintoexcel">
+                  </a> <!-- flightintoexcel -->
+                  <span class="method-name">flightintoexcel</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="flightintoexcel">
+                  </a> <!-- flightintoexcel -->
+                  <span class="method-name">flightintoexcel</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="priceintoexcel">
+                  </a> <!-- priceintoexcel -->
+                  <span class="method-name">priceintoexcel</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="priceintoexcel">
+                  </a> <!-- priceintoexcel -->
+                  <span class="method-name">priceintoexcel</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="screenshotHome">
+                  </a> <!-- screenshotHome -->
+                  <span class="method-name">screenshotHome</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="screenshotHome">
+                  </a> <!-- screenshotHome -->
+                  <span class="method-name">screenshotHome</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="screenshotResult">
+                  </a> <!-- screenshotResult -->
+                  <span class="method-name">screenshotResult</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="screenshotResult">
+                  </a> <!-- screenshotResult -->
+                  <span class="method-name">screenshotResult</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcaseDate">
+                  </a> <!-- testcaseDate -->
+                  <span class="method-name">testcaseDate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcaseDate">
+                  </a> <!-- testcaseDate -->
+                  <span class="method-name">testcaseDate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcaseFlight">
+                  </a> <!-- testcaseFlight -->
+                  <span class="method-name">testcaseFlight</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcaseFlight">
+                  </a> <!-- testcaseFlight -->
+                  <span class="method-name">testcaseFlight</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcaseFrom">
+                  </a> <!-- testcaseFrom -->
+                  <span class="method-name">testcaseFrom</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcaseFrom">
+                  </a> <!-- testcaseFrom -->
+                  <span class="method-name">testcaseFrom</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcasePrice">
+                  </a> <!-- testcasePrice -->
+                  <span class="method-name">testcasePrice</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcasePrice">
+                  </a> <!-- testcasePrice -->
+                  <span class="method-name">testcasePrice</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcasePriceSort">
+                  </a> <!-- testcasePriceSort -->
+                  <span class="method-name">testcasePriceSort</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcasePriceSort">
+                  </a> <!-- testcasePriceSort -->
+                  <span class="method-name">testcasePriceSort</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcaseRexl">
+                  </a> <!-- testcaseRexl -->
+                  <span class="method-name">testcaseRexl</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcaseRexl">
+                  </a> <!-- testcaseRexl -->
+                  <span class="method-name">testcaseRexl</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcaseSearch">
+                  </a> <!-- testcaseSearch -->
+                  <span class="method-name">testcaseSearch</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcaseSearch">
+                  </a> <!-- testcaseSearch -->
+                  <span class="method-name">testcaseSearch</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcaseTo">
+                  </a> <!-- testcaseTo -->
+                  <span class="method-name">testcaseTo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcaseTo">
+                  </a> <!-- testcaseTo -->
+                  <span class="method-name">testcaseTo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Functional_Testing-class-passed -->
+        </div> <!-- panel Functional_Testing -->
+        <div panel-name="test-xml-Functional_Testing" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\sam\eclipse-workspace\TripAutomation\test-output\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Functional Testing&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;cat category-chromeTest&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testScenarios.FlightDetails&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- cat category-chromeTest --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;cat category-firefoxTest&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;firefox&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testScenarios.FlightDetails&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- cat category-firefoxTest --&gt;
+&lt;/suite&gt; &lt;!-- Functional Testing --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Functional_Testing" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Functional Testing</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">cat category-chromeTest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">cat category-firefoxTest (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Functional_Testing" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Functional Testing</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Functional_Testing" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Functional Testing</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Functional_Testing');
+function tableData_Functional_Testing() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(24);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testcasePriceSort')
+data.setCell(0, 2, 'testScenarios.FlightDetails')
+data.setCell(0, 3, 4555);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testcasePriceSort')
+data.setCell(1, 2, 'testScenarios.FlightDetails')
+data.setCell(1, 3, 3387);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testcaseTo')
+data.setCell(2, 2, 'testScenarios.FlightDetails')
+data.setCell(2, 3, 2137);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testcaseRexl')
+data.setCell(3, 2, 'testScenarios.FlightDetails')
+data.setCell(3, 3, 1461);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'screenshotHome')
+data.setCell(4, 2, 'testScenarios.FlightDetails')
+data.setCell(4, 3, 1156);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testcaseFrom')
+data.setCell(5, 2, 'testScenarios.FlightDetails')
+data.setCell(5, 3, 1042);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testcaseDate')
+data.setCell(6, 2, 'testScenarios.FlightDetails')
+data.setCell(6, 3, 903);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testcaseFrom')
+data.setCell(7, 2, 'testScenarios.FlightDetails')
+data.setCell(7, 3, 880);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testcaseTo')
+data.setCell(8, 2, 'testScenarios.FlightDetails')
+data.setCell(8, 3, 871);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testcaseDate')
+data.setCell(9, 2, 'testScenarios.FlightDetails')
+data.setCell(9, 3, 858);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testcaseSearch')
+data.setCell(10, 2, 'testScenarios.FlightDetails')
+data.setCell(10, 3, 667);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'screenshotHome')
+data.setCell(11, 2, 'testScenarios.FlightDetails')
+data.setCell(11, 3, 627);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'screenshotResult')
+data.setCell(12, 2, 'testScenarios.FlightDetails')
+data.setCell(12, 3, 559);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'testcaseSearch')
+data.setCell(13, 2, 'testScenarios.FlightDetails')
+data.setCell(13, 3, 335);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'testcaseFlight')
+data.setCell(14, 2, 'testScenarios.FlightDetails')
+data.setCell(14, 3, 325);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'testcaseFlight')
+data.setCell(15, 2, 'testScenarios.FlightDetails')
+data.setCell(15, 3, 319);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'flightintoexcel')
+data.setCell(16, 2, 'testScenarios.FlightDetails')
+data.setCell(16, 3, 284);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'screenshotResult')
+data.setCell(17, 2, 'testScenarios.FlightDetails')
+data.setCell(17, 3, 281);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'flightintoexcel')
+data.setCell(18, 2, 'testScenarios.FlightDetails')
+data.setCell(18, 3, 259);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'testcasePrice')
+data.setCell(19, 2, 'testScenarios.FlightDetails')
+data.setCell(19, 3, 237);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'testcasePrice')
+data.setCell(20, 2, 'testScenarios.FlightDetails')
+data.setCell(20, 3, 185);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'priceintoexcel')
+data.setCell(21, 2, 'testScenarios.FlightDetails')
+data.setCell(21, 3, 76);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'testcaseRexl')
+data.setCell(22, 2, 'testScenarios.FlightDetails')
+data.setCell(22, 3, 70);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'priceintoexcel')
+data.setCell(23, 2, 'testScenarios.FlightDetails')
+data.setCell(23, 3, 43);
+window.suiteTableData['Functional_Testing']= { tableData: data, tableDiv: 'times-div-Functional_Testing'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 21 seconds</span>
+              <div id="times-div-Functional_Testing">
+              </div> <!-- times-div-Functional_Testing -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Functional_Testing" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Functional Testing</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Functional_Testing" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Functional_Testing" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testScenarios.FlightDetails</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">driverconfig(chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testcaseRexl</span>
+                <span class="method-start">12685 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testcaseFrom</span>
+                <span class="method-start">14162 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testcaseTo</span>
+                <span class="method-start">15044 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testcaseDate</span>
+                <span class="method-start">15917 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">screenshotHome</span>
+                <span class="method-start">16777 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testcaseSearch</span>
+                <span class="method-start">17937 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testcasePriceSort</span>
+                <span class="method-start">18273 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">screenshotResult</span>
+                <span class="method-start">22830 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testcaseFlight</span>
+                <span class="method-start">23396 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testcasePrice</span>
+                <span class="method-start">23716 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">flightintoexcel</span>
+                <span class="method-start">23955 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">priceintoexcel</span>
+                <span class="method-start">24245 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">driverexit</span>
+                <span class="method-start">24331 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-class before">
+                <span class="method-name">driverconfig(firefox)</span>
+                <span class="method-start">24650 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testcaseRexl</span>
+                <span class="method-start">36221 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testcaseFrom</span>
+                <span class="method-start">36312 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testcaseTo</span>
+                <span class="method-start">37355 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testcaseDate</span>
+                <span class="method-start">39494 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">screenshotHome</span>
+                <span class="method-start">40398 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testcaseSearch</span>
+                <span class="method-start">41058 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testcasePriceSort</span>
+                <span class="method-start">41727 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">screenshotResult</span>
+                <span class="method-start">45115 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testcaseFlight</span>
+                <span class="method-start">45398 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testcasePrice</span>
+                <span class="method-start">45725 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">flightintoexcel</span>
+                <span class="method-start">45912 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">priceintoexcel</span>
+                <span class="method-start">46174 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">driverexit</span>
+                <span class="method-start">46221 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

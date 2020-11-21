@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="24" passed="24" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-11-07T10:21:56 IST" name="Functional Testing" finished-at="2020-11-07T10:22:43 IST" duration-ms="47483">
+    <groups>
+    </groups>
+    <test started-at="2020-11-07T10:21:56 IST" name="cat category-chromeTest" finished-at="2020-11-07T10:22:21 IST" duration-ms="24627">
+      <class name="testScenarios.FlightDetails">
+        <test-method is-config="true" signature="driverconfig(java.lang.String)[pri:0, instance:testScenarios.FlightDetails@76f2bbc1]" started-at="2020-11-07T10:21:56 IST" name="driverconfig" finished-at="2020-11-07T10:22:09 IST" duration-ms="12677" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverconfig -->
+        <test-method signature="testcaseRexl()[pri:1, instance:testScenarios.FlightDetails@76f2bbc1]" started-at="2020-11-07T10:22:09 IST" name="testcaseRexl" finished-at="2020-11-07T10:22:10 IST" duration-ms="1461" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcaseRexl -->
+        <test-method signature="testcaseFrom()[pri:2, instance:testScenarios.FlightDetails@76f2bbc1]" started-at="2020-11-07T10:22:10 IST" name="testcaseFrom" finished-at="2020-11-07T10:22:11 IST" duration-ms="880" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcaseFrom -->
+        <test-method signature="testcaseTo()[pri:3, instance:testScenarios.FlightDetails@76f2bbc1]" started-at="2020-11-07T10:22:11 IST" name="testcaseTo" finished-at="2020-11-07T10:22:12 IST" duration-ms="871" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcaseTo -->
+        <test-method signature="testcaseDate()[pri:4, instance:testScenarios.FlightDetails@76f2bbc1]" started-at="2020-11-07T10:22:12 IST" name="testcaseDate" finished-at="2020-11-07T10:22:13 IST" duration-ms="858" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcaseDate -->
+        <test-method signature="screenshotHome()[pri:5, instance:testScenarios.FlightDetails@76f2bbc1]" started-at="2020-11-07T10:22:13 IST" name="screenshotHome" finished-at="2020-11-07T10:22:14 IST" duration-ms="1156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotHome -->
+        <test-method signature="testcaseSearch()[pri:6, instance:testScenarios.FlightDetails@76f2bbc1]" started-at="2020-11-07T10:22:14 IST" name="testcaseSearch" finished-at="2020-11-07T10:22:14 IST" duration-ms="335" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcaseSearch -->
+        <test-method signature="testcasePriceSort()[pri:7, instance:testScenarios.FlightDetails@76f2bbc1]" started-at="2020-11-07T10:22:14 IST" name="testcasePriceSort" finished-at="2020-11-07T10:22:19 IST" duration-ms="4555" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcasePriceSort -->
+        <test-method signature="screenshotResult()[pri:8, instance:testScenarios.FlightDetails@76f2bbc1]" started-at="2020-11-07T10:22:19 IST" name="screenshotResult" finished-at="2020-11-07T10:22:19 IST" duration-ms="559" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotResult -->
+        <test-method signature="testcaseFlight()[pri:9, instance:testScenarios.FlightDetails@76f2bbc1]" started-at="2020-11-07T10:22:19 IST" name="testcaseFlight" finished-at="2020-11-07T10:22:20 IST" duration-ms="319" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcaseFlight -->
+        <test-method signature="testcasePrice()[pri:10, instance:testScenarios.FlightDetails@76f2bbc1]" started-at="2020-11-07T10:22:20 IST" name="testcasePrice" finished-at="2020-11-07T10:22:20 IST" duration-ms="237" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcasePrice -->
+        <test-method signature="flightintoexcel()[pri:11, instance:testScenarios.FlightDetails@76f2bbc1]" started-at="2020-11-07T10:22:20 IST" name="flightintoexcel" finished-at="2020-11-07T10:22:20 IST" duration-ms="284" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightintoexcel -->
+        <test-method signature="priceintoexcel()[pri:12, instance:testScenarios.FlightDetails@76f2bbc1]" started-at="2020-11-07T10:22:20 IST" name="priceintoexcel" finished-at="2020-11-07T10:22:20 IST" duration-ms="76" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- priceintoexcel -->
+        <test-method is-config="true" signature="driverexit()[pri:0, instance:testScenarios.FlightDetails@76f2bbc1]" started-at="2020-11-07T10:22:20 IST" name="driverexit" finished-at="2020-11-07T10:22:21 IST" duration-ms="271" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverexit -->
+      </class> <!-- testScenarios.FlightDetails -->
+    </test> <!-- cat category-chromeTest -->
+    <test started-at="2020-11-07T10:22:21 IST" name="cat category-firefoxTest" finished-at="2020-11-07T10:22:43 IST" duration-ms="22816">
+      <class name="testScenarios.FlightDetails">
+        <test-method is-config="true" signature="driverconfig(java.lang.String)[pri:0, instance:testScenarios.FlightDetails@26275bef]" started-at="2020-11-07T10:22:21 IST" name="driverconfig" finished-at="2020-11-07T10:22:32 IST" duration-ms="11571" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverconfig -->
+        <test-method signature="testcaseRexl()[pri:1, instance:testScenarios.FlightDetails@26275bef]" started-at="2020-11-07T10:22:32 IST" name="testcaseRexl" finished-at="2020-11-07T10:22:32 IST" duration-ms="70" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcaseRexl -->
+        <test-method signature="testcaseFrom()[pri:2, instance:testScenarios.FlightDetails@26275bef]" started-at="2020-11-07T10:22:32 IST" name="testcaseFrom" finished-at="2020-11-07T10:22:33 IST" duration-ms="1042" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcaseFrom -->
+        <test-method signature="testcaseTo()[pri:3, instance:testScenarios.FlightDetails@26275bef]" started-at="2020-11-07T10:22:33 IST" name="testcaseTo" finished-at="2020-11-07T10:22:35 IST" duration-ms="2137" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcaseTo -->
+        <test-method signature="testcaseDate()[pri:4, instance:testScenarios.FlightDetails@26275bef]" started-at="2020-11-07T10:22:35 IST" name="testcaseDate" finished-at="2020-11-07T10:22:36 IST" duration-ms="903" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcaseDate -->
+        <test-method signature="screenshotHome()[pri:5, instance:testScenarios.FlightDetails@26275bef]" started-at="2020-11-07T10:22:36 IST" name="screenshotHome" finished-at="2020-11-07T10:22:37 IST" duration-ms="627" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotHome -->
+        <test-method signature="testcaseSearch()[pri:6, instance:testScenarios.FlightDetails@26275bef]" started-at="2020-11-07T10:22:37 IST" name="testcaseSearch" finished-at="2020-11-07T10:22:38 IST" duration-ms="667" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcaseSearch -->
+        <test-method signature="testcasePriceSort()[pri:7, instance:testScenarios.FlightDetails@26275bef]" started-at="2020-11-07T10:22:38 IST" name="testcasePriceSort" finished-at="2020-11-07T10:22:41 IST" duration-ms="3387" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcasePriceSort -->
+        <test-method signature="screenshotResult()[pri:8, instance:testScenarios.FlightDetails@26275bef]" started-at="2020-11-07T10:22:41 IST" name="screenshotResult" finished-at="2020-11-07T10:22:41 IST" duration-ms="281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotResult -->
+        <test-method signature="testcaseFlight()[pri:9, instance:testScenarios.FlightDetails@26275bef]" started-at="2020-11-07T10:22:41 IST" name="testcaseFlight" finished-at="2020-11-07T10:22:42 IST" duration-ms="325" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcaseFlight -->
+        <test-method signature="testcasePrice()[pri:10, instance:testScenarios.FlightDetails@26275bef]" started-at="2020-11-07T10:22:42 IST" name="testcasePrice" finished-at="2020-11-07T10:22:42 IST" duration-ms="185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcasePrice -->
+        <test-method signature="flightintoexcel()[pri:11, instance:testScenarios.FlightDetails@26275bef]" started-at="2020-11-07T10:22:42 IST" name="flightintoexcel" finished-at="2020-11-07T10:22:42 IST" duration-ms="259" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightintoexcel -->
+        <test-method signature="priceintoexcel()[pri:12, instance:testScenarios.FlightDetails@26275bef]" started-at="2020-11-07T10:22:42 IST" name="priceintoexcel" finished-at="2020-11-07T10:22:42 IST" duration-ms="43" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- priceintoexcel -->
+        <test-method is-config="true" signature="driverexit()[pri:0, instance:testScenarios.FlightDetails@26275bef]" started-at="2020-11-07T10:22:42 IST" name="driverexit" finished-at="2020-11-07T10:22:43 IST" duration-ms="1237" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverexit -->
+      </class> <!-- testScenarios.FlightDetails -->
+    </test> <!-- cat category-firefoxTest -->
+  </suite> <!-- Functional Testing -->
+</testng-results>

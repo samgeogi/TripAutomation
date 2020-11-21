@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Functional Testing" parallel="none">
+
+<test name="cat category-chromeTest">
+
+<parameter name="browser" value="chrome"/>
+
+<classes>
+
+<class name="testScenarios.FlightDetails"/>
+
+</classes>
+
+</test> <!-- Test -->
+
+<test name="cat category-firefoxTest">
+
+<parameter name="browser" value="firefox" />
+
+<classes>
+
+<class name="testScenarios.FlightDetails"/>
+
+</classes>
+
+</test> <!-- Test -->
+
+</suite> <!-- Suite -->

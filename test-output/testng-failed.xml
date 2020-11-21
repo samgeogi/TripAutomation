@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Functional Testing]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="cat category-firefoxTest(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="testScenarios.FlightDetails">
+        <methods>
+          <include name="testcaseDate"/>
+          <include name="screenshotHome"/>
+          <include name="screenshotResult"/>
+          <include name="testcasePriceSort"/>
+          <include name="testcaseTo"/>
+          <include name="testcasePrice"/>
+          <include name="testcaseRexl"/>
+          <include name="priceintoexcel"/>
+          <include name="driverconfig"/>
+          <include name="testcaseFrom"/>
+          <include name="driverexit"/>
+          <include name="flightintoexcel"/>
+          <include name="testcaseSearch"/>
+          <include name="testcaseFlight"/>
+        </methods>
+      </class> <!-- testScenarios.FlightDetails -->
+    </classes>
+  </test> <!-- cat category-firefoxTest(failed) -->
+</suite> <!-- Failed suite [Functional Testing] -->
